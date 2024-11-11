@@ -1,0 +1,50 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "SchoolManagementSystem/1.0.0": {
+        "dependencies": {
+          "SchoolManagementSystem.DAL": "1.0.0",
+          "SchoolManagementSystem.Service": "1.0.0"
+        },
+        "runtime": {
+          "SchoolManagementSystem.dll": {}
+        }
+      },
+      "SchoolManagementSystem.DAL/1.0.0": {
+        "runtime": {
+          "SchoolManagementSystem.DAL.dll": {}
+        }
+      },
+      "SchoolManagementSystem.Service/1.0.0": {
+        "dependencies": {
+          "SchoolManagementSystem.DAL": "1.0.0"
+        },
+        "runtime": {
+          "SchoolManagementSystem.Service.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SchoolManagementSystem/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SchoolManagementSystem.DAL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SchoolManagementSystem.Service/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

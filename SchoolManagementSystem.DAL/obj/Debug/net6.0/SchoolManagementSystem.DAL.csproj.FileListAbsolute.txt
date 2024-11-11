@@ -1,0 +1,11 @@
+E:\Test Projects\SchoolManagementSystem\SchoolManagementSystem.DAL\bin\Debug\net6.0\SchoolManagementSystem.DAL.deps.json
+E:\Test Projects\SchoolManagementSystem\SchoolManagementSystem.DAL\bin\Debug\net6.0\SchoolManagementSystem.DAL.dll
+E:\Test Projects\SchoolManagementSystem\SchoolManagementSystem.DAL\bin\Debug\net6.0\SchoolManagementSystem.DAL.pdb
+E:\Test Projects\SchoolManagementSystem\SchoolManagementSystem.DAL\obj\Debug\net6.0\SchoolManagementSystem.DAL.GeneratedMSBuildEditorConfig.editorconfig
+E:\Test Projects\SchoolManagementSystem\SchoolManagementSystem.DAL\obj\Debug\net6.0\SchoolManagementSystem.DAL.AssemblyInfoInputs.cache
+E:\Test Projects\SchoolManagementSystem\SchoolManagementSystem.DAL\obj\Debug\net6.0\SchoolManagementSystem.DAL.AssemblyInfo.cs
+E:\Test Projects\SchoolManagementSystem\SchoolManagementSystem.DAL\obj\Debug\net6.0\SchoolManagementSystem.DAL.csproj.CoreCompileInputs.cache
+E:\Test Projects\SchoolManagementSystem\SchoolManagementSystem.DAL\obj\Debug\net6.0\SchoolManagementSystem.DAL.dll
+E:\Test Projects\SchoolManagementSystem\SchoolManagementSystem.DAL\obj\Debug\net6.0\refint\SchoolManagementSystem.DAL.dll
+E:\Test Projects\SchoolManagementSystem\SchoolManagementSystem.DAL\obj\Debug\net6.0\SchoolManagementSystem.DAL.pdb
+E:\Test Projects\SchoolManagementSystem\SchoolManagementSystem.DAL\obj\Debug\net6.0\ref\SchoolManagementSystem.DAL.dll

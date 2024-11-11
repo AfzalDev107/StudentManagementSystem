@@ -1,0 +1,78 @@
+{
+  "Students": [
+    {
+      "StudentId": "ST80689",
+      "FirstName": "Afzal",
+      "LastName": "Gafoor",
+      "Age": 23,
+      "DOB": "2024-11-20T00:00:00",
+      "Gender": "Male",
+      "Email": "afzal@gmail.com",
+      "Phone": "7878787878",
+      "Username": "afzal",
+      "Password": "password",
+      "Qualifications": [
+        {
+          "QualificationId": 0,
+          "StudentId": null,
+          "CourseName": "first",
+          "University": "second",
+          "Year": 2020,
+          "Percentage": 67
+        }
+      ]
+    },
+    {
+      "StudentId": "ST41036",
+      "FirstName": "Afzal",
+      "LastName": "Gafoor",
+      "Age": 23,
+      "DOB": "0001-01-01T00:00:00",
+      "Gender": "Male",
+      "Email": "afzal@gmail.com",
+      "Phone": "7878787878",
+      "Username": "afzal",
+      "Password": "pass",
+      "Qualifications": [
+        {
+          "QualificationId": 0,
+          "StudentId": null,
+          "CourseName": "first",
+          "University": "second",
+          "Year": 2020,
+          "Percentage": 67
+        },
+        {
+          "QualificationId": 0,
+          "StudentId": null,
+          "CourseName": "sec",
+          "University": "ssss",
+          "Year": 2021,
+          "Percentage": 89
+        }
+      ]
+    },
+    {
+      "StudentId": "ST48054",
+      "FirstName": "Afzal",
+      "LastName": "Gafoor",
+      "Age": 23,
+      "DOB": "2024-09-03T00:00:00",
+      "Gender": "Male",
+      "Email": "afzal@gmail.com",
+      "Phone": "56545455454",
+      "Username": "afzal",
+      "Password": "65765765767667",
+      "Qualifications": [
+        {
+          "QualificationId": 0,
+          "StudentId": null,
+          "CourseName": "sec",
+          "University": "ssss",
+          "Year": 2021,
+          "Percentage": 89
+        }
+      ]
+    }
+  ]
+}

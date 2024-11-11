@@ -1,0 +1,60 @@
+﻿@model SchoolManagementSystem.DAL.Models.Student
+
+<form asp-action="Register" method="post">
+    <label>First Name:</label>
+    <input asp-for="FirstName" /><br />
+    <label>Last Name:</label>
+    <input asp-for="LastName" /><br />
+    <label>Age:</label>
+    <input asp-for="Age" /><br />
+    <label>DOB:</label>
+    <input asp-for="DOB" /><br />
+    <label>Gender:</label>
+    <input asp-for="Gender" /><br />
+    <label>Email:</label>
+    <input asp-for="Email" /><br />
+    <label>Phone:</label>
+    <input asp-for="Phone" /><br />
+    <label>Username:</label>
+    <input asp-for="Username" /><br />
+    <label>Password:</label>
+    <input asp-for="Password" type="password" /><br />
+
+    <h3>Qualifications</h3>
+    <div id="qualifications">
+        <label>Course Name:</label>
+        <input name="Qualifications[0].CourseName" /><br />
+        <label>University:</label>
+        <input name="Qualifications[0].University" /><br />
+        <label>Year:</label>
+        <input name="Qualifications[0].Year" /><br />
+        <label>Percentage:</label>
+        <input name="Qualifications[0].Percentage" /><br />
+    </div>
+
+    <button type="button" onclick="addQualification()">Add Another Qualification</button><br /><br />
+    <button type="submit">Register</button>
+</form>
+
+<script>
+    let qualificationIndex = 1;
+
+    function addQualification() {
+        const qualificationDiv = document.createElement('div');
+        qualificationDiv.className = 'qualification-item';
+
+        qualificationDiv.innerHTML = `
+                <label>Course Name:</label>
+                <input name="Qualifications[${qualificationIndex}].CourseName" /><br />
+                <label>University:</label>
+                <input name="Qualifications[${qualificationIndex}].University" /><br />
+                <label>Year:</label>
+                <input name="Qualifications[${qualificationIndex}].Year" /><br />
+                <label>Percentage:</label>
+                <input name="Qualifications[${qualificationIndex}].Percentage" /><br />
+            `;
+
+        document.getElementById('qualifications').appendChild(qualificationDiv);
+        qualificationIndex++;
+    }
+</script>

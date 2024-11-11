@@ -1,0 +1,116 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "SchoolManagementSystem.DAL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/SchoolManagementSystem.DAL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SchoolManagementSystem.DAL.dll": {}
+        }
+      },
+      "SchoolManagementSystem.Service/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "SchoolManagementSystem.DAL": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/SchoolManagementSystem.Service.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SchoolManagementSystem.Service.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SchoolManagementSystem.DAL/1.0.0": {
+      "type": "project",
+      "path": "../SchoolManagementSystem.DAL/SchoolManagementSystem.DAL.csproj",
+      "msbuildProject": "../SchoolManagementSystem.DAL/SchoolManagementSystem.DAL.csproj"
+    },
+    "SchoolManagementSystem.Service/1.0.0": {
+      "type": "project",
+      "path": "../SchoolManagementSystem.Service/SchoolManagementSystem.Service.csproj",
+      "msbuildProject": "../SchoolManagementSystem.Service/SchoolManagementSystem.Service.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "SchoolManagementSystem.DAL >= 1.0.0",
+      "SchoolManagementSystem.Service >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Afzal G\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "E:\\Test Projects\\SchoolManagementSystem\\SchoolManagementSystem\\SchoolManagementSystem.csproj",
+      "projectName": "SchoolManagementSystem",
+      "projectPath": "E:\\Test Projects\\SchoolManagementSystem\\SchoolManagementSystem\\SchoolManagementSystem.csproj",
+      "packagesPath": "C:\\Users\\Afzal G\\.nuget\\packages\\",
+      "outputPath": "E:\\Test Projects\\SchoolManagementSystem\\SchoolManagementSystem\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Afzal G\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "E:\\Test Projects\\SchoolManagementSystem\\SchoolManagementSystem.DAL\\SchoolManagementSystem.DAL.csproj": {
+              "projectPath": "E:\\Test Projects\\SchoolManagementSystem\\SchoolManagementSystem.DAL\\SchoolManagementSystem.DAL.csproj"
+            },
+            "E:\\Test Projects\\SchoolManagementSystem\\SchoolManagementSystem.Service\\SchoolManagementSystem.Service.csproj": {
+              "projectPath": "E:\\Test Projects\\SchoolManagementSystem\\SchoolManagementSystem.Service\\SchoolManagementSystem.Service.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

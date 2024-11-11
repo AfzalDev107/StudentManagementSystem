@@ -1,0 +1,15 @@
+E:\Test Projects\SchoolManagementSystem\SchoolManagementSystem.Service\bin\Debug\net6.0\SchoolManagementSystem.Service.deps.json
+E:\Test Projects\SchoolManagementSystem\SchoolManagementSystem.Service\bin\Debug\net6.0\SchoolManagementSystem.Service.dll
+E:\Test Projects\SchoolManagementSystem\SchoolManagementSystem.Service\bin\Debug\net6.0\SchoolManagementSystem.Service.pdb
+E:\Test Projects\SchoolManagementSystem\SchoolManagementSystem.Service\bin\Debug\net6.0\SchoolManagementSystem.DAL.dll
+E:\Test Projects\SchoolManagementSystem\SchoolManagementSystem.Service\bin\Debug\net6.0\SchoolManagementSystem.DAL.pdb
+E:\Test Projects\SchoolManagementSystem\SchoolManagementSystem.Service\obj\Debug\net6.0\SchoolManagementSystem.Service.csproj.AssemblyReference.cache
+E:\Test Projects\SchoolManagementSystem\SchoolManagementSystem.Service\obj\Debug\net6.0\SchoolManagementSystem.Service.GeneratedMSBuildEditorConfig.editorconfig
+E:\Test Projects\SchoolManagementSystem\SchoolManagementSystem.Service\obj\Debug\net6.0\SchoolManagementSystem.Service.AssemblyInfoInputs.cache
+E:\Test Projects\SchoolManagementSystem\SchoolManagementSystem.Service\obj\Debug\net6.0\SchoolManagementSystem.Service.AssemblyInfo.cs
+E:\Test Projects\SchoolManagementSystem\SchoolManagementSystem.Service\obj\Debug\net6.0\SchoolManagementSystem.Service.csproj.CoreCompileInputs.cache
+E:\Test Projects\SchoolManagementSystem\SchoolManagementSystem.Service\obj\Debug\net6.0\SchoolManagementSystem.Service.csproj.CopyComplete
+E:\Test Projects\SchoolManagementSystem\SchoolManagementSystem.Service\obj\Debug\net6.0\SchoolManagementSystem.Service.dll
+E:\Test Projects\SchoolManagementSystem\SchoolManagementSystem.Service\obj\Debug\net6.0\refint\SchoolManagementSystem.Service.dll
+E:\Test Projects\SchoolManagementSystem\SchoolManagementSystem.Service\obj\Debug\net6.0\SchoolManagementSystem.Service.pdb
+E:\Test Projects\SchoolManagementSystem\SchoolManagementSystem.Service\obj\Debug\net6.0\ref\SchoolManagementSystem.Service.dll
